@@ -45,7 +45,7 @@ Relationships:
 ---
 
 ## ✅ Why this Project?
-- Beginner-friendly (mostly point-and-click, no heavy coding).  
+  
 - Attractive demo with dashboards and automation.  
 - Practical use case (every school/college faces this).  
 
