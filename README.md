@@ -1,62 +1,47 @@
-# Salesforce Mini Project – Student Attendance & Fee Tracker
+ 🏥 Clinic Appointment & Patient Management System
 
-## 📌 Problem Statement
-Schools and coaching institutes often face challenges in **tracking student attendance and fee payments**. Manual tracking leads to errors, delays, and poor reporting.  
-This project aims to build a **Salesforce-based Student Attendance & Fee Tracker** that simplifies record keeping, automates reminders, and provides clear dashboards for management.
+📌 Phase 1: Project Documentation  
 
----
+ 🔹 Project Title  
+**Clinic Appointment & Patient Management System**
 
-## 🎯 Objectives
-- Automate student attendance management.
-- Track fee payments with reminders for due dates.
-- Provide dashboards and reports for quick insights.
-- Ensure stakeholders (Admin, Teachers, Parents) can view necessary information.
+🔹 Problem Statement  
+Local clinics and doctors often face challenges in managing patient appointments, medical history, and billing.  
+Most small clinics still rely on manual registers or Excel sheets, which leads to:  
+- Confusion in scheduling appointments  
+- Scattered patient records  
+- Difficulty in tracking revenue and payments  
 
----
+A **centralized Salesforce CRM system** will be developed to help clinics manage patients and appointments efficiently.  
 
-## 🛠️ Core Objects & Relationships
-- **Student (Custom Object)** – stores student details.  
-- **Attendance (Custom Object)** – linked to Student.  
-- **Fee (Custom Object)** – linked to Student.  
-- **Teacher (Custom Object)** – linked to Attendance.  
+🔹 Objectives  
+- Track patient inquiries and registrations  
+- Manage and schedule appointments (Doctor, Date, Time)  
+- Record billing and payments in Salesforce  
+- Provide clear insights through **Reports & Dashboards** (patients per month, revenue generated)  
 
-Relationships:  
-- One Student → Many Attendance Records  
-- One Student → Many Fee Records  
+🔹 Scope of Work  
+- **Leads** → New patient inquiries  
+- **Contacts** → Registered patients  
+- **Custom Object: Appointments** → Appointment details (Patient, Doctor, Date, Time, Status)  
+- **Opportunities** → Billing / Payments  
+- **Reports & Dashboards** →  
+  - Monthly patient visits  
+  - Revenue per doctor  
+  - Appointment status (upcoming, completed, cancelled)  
 
----
+🔹 Deliverables of Phase 1  
+- Documented project idea (Problem + Objectives + Scope)  
+- GitHub repository initialized with this README  
+- Clear roadmap for Phase 2 (Salesforce configuration & implementation)  
 
-## 🚀 Key Features
-- **Flows:** Auto-generate attendance records daily.  
-- **Validation Rules:** Ensure no duplicate fee entries.  
-- **Reports/Dashboards:** Attendance % by student/class, Fees collected vs pending.  
-- **Email Alerts:** Parents get reminder emails for pending fees.  
-
----
-
-## 🎥 Demo Flow
-1. Add new student → Auto-generated unique Student ID.  
-2. Mark attendance via a form (Teacher entry).  
-3. Enter fee payment → Automatic status update.  
-4. Dashboard shows:  
-   - Top defaulters (pending fees).  
-   - Monthly attendance % report.  
-
----
-
-## ✅ Why this Project?
-  
-- Attractive demo with dashboards and automation.  
-- Practical use case (every school/college faces this).  
+🚀 Next Steps (Phase 2 Preview)  
+- Create **Custom Objects & Fields** in Salesforce  
+- Setup **Relationships** between Patients, Appointments, and Billing  
+- Configure **Reports and Dashboards**  
+- Test end-to-end flow of patient inquiry → appointment → billing  
 
 ---
 
-## 📂 Repository Structure
-- `problem-statement.md` → Detailed problem description  
-- `requirements.md` → Functional & Non-functional requirements  
-- `stakeholders.md` → Stakeholder analysis  
-- `use_cases.md` → Industry use case mapping  
-- `appexchange.md` → Related Salesforce AppExchange tools  
-- `mock-data.csv` → Sample student & fee dataset  
-- `demo-plan.md` → Final demo script  
--
+👨‍💻 **Repo Name Suggestion:**  
+`clinic-appointment-management-salesforce`
