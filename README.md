@@ -30,18 +30,4 @@ A **centralized Salesforce CRM system** will be developed to help clinics manage
   - Revenue per doctor  
   - Appointment status (upcoming, completed, cancelled)  
 
-🔹 Deliverables of Phase 1  
-- Documented project idea (Problem + Objectives + Scope)  
-- GitHub repository initialized with this README  
-- Clear roadmap for Phase 2 (Salesforce configuration & implementation)  
 
-🚀 Next Steps (Phase 2 Preview)  
-- Create **Custom Objects & Fields** in Salesforce  
-- Setup **Relationships** between Patients, Appointments, and Billing  
-- Configure **Reports and Dashboards**  
-- Test end-to-end flow of patient inquiry → appointment → billing  
-
----
-
-👨‍💻 **Repo Name Suggestion:**  
-`clinic-appointment-management-salesforce`
