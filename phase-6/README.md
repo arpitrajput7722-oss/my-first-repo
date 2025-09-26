@@ -16,6 +16,7 @@ Step 2: Adding Navigation Tabs
 Tabs added for key objects: Home, Patient, Doctor, Appointment, Billing, Reports.
 
 This ensured smooth navigation between different parts of the system.
+<img width="1911" height="924" alt="Screenshot 2025-09-26 154612" src="https://github.com/user-attachments/assets/ce4a5f84-ac7c-48c8-84ce-35e053668d11" />
 
 
 Step 3: Creating Custom Tabs
@@ -33,7 +34,6 @@ Utility bar was enhanced with Recent Items, Notes, and History.
 
 This improved quick access and overall usability for clinic staff.
 
-Screenshot Placeholder: [Insert Screenshot: Step4_UtilityBar.png]
 
 Step 5: Assigning App to Profiles
 
